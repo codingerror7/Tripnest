@@ -20,7 +20,7 @@ const page2 = () => {
 
   return (
     <>
-    <div className='min-h-[370vh] bg-stone-900 pt-[5%] overflow-hidden'>
+    <div id='Page2' className='min-h-[370vh] bg-stone-900 pt-[5%] overflow-hidden'>
       <h1 className='font-[gilroy] text-[65px] font-extrabold uppercase text-sky-300 w-[60%] ml-[2%]'>Discover hidden gems around the world</h1>
       <div className='flex items-center justify-between border-white w-[30%] text-white font-semibold ml-[2%]'>
         <h2 className='border-[1px] rounded-[30px] font-[gilroy] text-[12px] p-[8px]'>SEARCH</h2>

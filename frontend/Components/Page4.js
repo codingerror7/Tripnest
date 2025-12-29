@@ -3,7 +3,7 @@ import React from 'react'
 const page4 = () => {
   return (
     <>
-    <div className='min-h-[158vh] border-stone-900 border-[10px] bg-[linear-gradient(150deg,#FFF8E7_0%,#C7E9FF_50%,#E6E8FF_100%)] overflow-hidden'>
+    <div id='Page4' className='min-h-[158vh] border-stone-900 border-[10px] bg-[linear-gradient(150deg,#FFF8E7_0%,#C7E9FF_50%,#E6E8FF_100%)] overflow-hidden'>
        <div className='pt-[4%]'>
         <h1 className='font-[gilroy] text-[65px] font-extrabold text-gray-900 w-[70%] uppercase ml-[2%] pt-[3%]'>Curated Travel Packages for Every Explorer🌍</h1>
         <p className='font-[gilroy] text-[30px] text-blue-950 font-medium ml-[2%] w-[60%]'>Discover thoughtfully crafted travel experiences — including stays, activities, and local adventures — tailored just for you.</p>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 const page3 = () => {
   return (
     <>
-    <div className='min-h-[145vh] bg-stone-900 pt-[2%] overflow-hidden'>
+    <div id='Page3' className='min-h-[145vh] bg-stone-900 pt-[2%] overflow-hidden'>
         <h1 className='font-[gilroy] text-[52px] font-extrabold uppercase text-sky-300 w-[65%] ml-[2%]'>🌟 Hear from Our Happy Travelers</h1>
         <p className='font-[gilroy] text-[30px] text-white font-medium ml-[7.5%]'>Real stories from explorers who found their perfect stay with TripNest.</p>
        <div className='flex items-center justify-around h-[45vh] p-[2%] pt-[2%] text-white font-[gilroy]'>

@@ -31,7 +31,7 @@ router.push("/");
 
   return (
     <>
-    <div className='min-h-[100vh] border-stone-900 border-[10px] bg-[linear-gradient(150deg,#FFF8E7_0%,#C7E9FF_50%,#E6E8FF_100%)] overflow-hidden'>
+    <div id='Page1' className='min-h-[100vh] border-stone-900 border-[10px] bg-[linear-gradient(150deg,#FFF8E7_0%,#C7E9FF_50%,#E6E8FF_100%)] overflow-hidden'>
       <div className='absolute w-[17%] h-[12%] bg-stone-900 p-[2%] rounded-[50px] text-white text-center font-[gilroy] font-extrabold text-[22px] mt-[-1%] ml-[-2%] '><h1 className='mt-[1%] ml-[-15%]'>TRIPNEST<svg className='mt-[-18%] ml-[10.5vw]' xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="m354-334 356-94q15-4 22.5-18.5T736-476q-4-15-17.5-22.5T690-502l-98 26-160-150-56 14 96 168-96 24-50-38-38 10 66 114Zm446 174H160q-33 0-56.5-23.5T80-240v-160q33 0 56.5-23.5T160-480q0-33-23.5-56.5T80-560v-160q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160Zm0-80v-480H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102h640ZM480-480Z"/></svg></h1></div>
      {showPopUp && <div className='absolute h-[24%] w-[10%] border-1px border-black rounded-[10px] bg-white p-[10px] text-black text-center right-30 mt-[4%] z-[10]'>
         <Link href='./Dashboard' className='mt-[3%] cursor-pointer hover:bg-gray-300'>Dashboard</Link>
@@ -65,7 +65,7 @@ router.push("/");
       </div>
       <div className='absolute w-[17vw] h-[10%] bg-stone-900 text-white text-center font-[gilroy] mt-[5%] ml-[81vw] rounded-s-[50px] '>
         <p className='text-[13px] text-center font-semibold mt-[3%]'>GIVE FEEDBACK/ASK QUERY:</p>
-          <button className='text-[12px] border-[1px] border-white w-[50%] p-[1%] rounded-[20px] font-extrabold bg-white text-black flex items-center justify-around ml-[25%] mt-[3%] cursor-pointer'>EMAIL US<svg className='text-black' xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px"><path d="m216-160-56-56 464-464H360v-80h400v400h-80v-264L216-160Z"/></svg></button>
+          <a href='mailto:tripnest@gmail.com' className='text-[12px] border-[1px] border-white w-[50%] p-[1%] rounded-[20px] font-extrabold bg-white text-black flex items-center justify-around ml-[25%] mt-[3%] cursor-pointer'>EMAIL US<svg className='text-black' xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px"><path d="m216-160-56-56 464-464H360v-80h400v400h-80v-264L216-160Z"/></svg></a>
         </div>
       </div>
       
