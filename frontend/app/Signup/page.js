@@ -19,7 +19,7 @@ function App() {
     // console.log(data.email);
     // console.log(data.password);
     try {
-      let res = await axios.post("http://localhost:8000/api/auth/signup",data);
+      let res = await axios.post("https://tripnest-travel-app.onrender.com/api/auth/signup",data);
       localStorage.setItem("token",res.data.token);
     alert("Signup successfull");
     reset();
